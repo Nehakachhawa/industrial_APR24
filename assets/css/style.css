@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+.text-color{color:#1DC1DE;
+            color:#14307F;}
+.background{background:#00D7F1;
+           background:#123681;}
+/*HEADER SECTION START*/           
+header{
+    width: 100%;
+    height: 60px;
+    color:#fff;
+    display: flex;
+    line-height: 60px;
+    background: #012C7F;
+    padding: 0px 100px;
+    justify-content: space-between;
+}
+header .company-name span{
+    font-size: 15px;
+    font-weight: normal;
+}
+header .contact span{
+    color:#1DC1DE;
+}
+/*HEADER SECTION END*/
+/*Main section start*/
+main{
+    color:#fff;
+    width: 100%;
+    height: 450px;
+    padding: 0px 100px;
+    background: linear-gradient (rgba(0,0,0),rgba(0,0,0,0.5)),url(../img/industry.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main form{
+    backround: #002577;
+    padding: 12px;
+    border-radius: 15px;
+}
+main form input, button{
+    height: 45px;
+    margin: 2px 0px;
+    text-align: center;
+    text-transform: capitalize;
+}
+/*Main section end*/
